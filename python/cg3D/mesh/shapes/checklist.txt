@@ -1,0 +1,13 @@
+/: done
+x: not done
+
+- cone       /
+- cuboid     /
+- cylinder   /
+- extrude    /
+- helix      x
+- model      /
+- implicit   /
+- parametric x
+- sphere     x
+- torus      x

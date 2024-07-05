@@ -1,0 +1,18 @@
+cg3D
+    light.py
+        - implement shadow maps
+
+    render.py
+        - implement textures
+        - implement frustrum and z clipping
+
+    mesh
+        - implement smooth_normals()
+        - implement calculate_uvs()
+
+        shapes
+            - implement helix generator
+            - implement parametric generator
+            - implement sphere generator
+            - implement torus generator
+            - smooth normals on smooth objects
