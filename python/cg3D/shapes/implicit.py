@@ -1,5 +1,5 @@
 from ..mesh import Mesh
-from ... import utils
+from .. import utils
 import numpy as np
 
 # Marching cubes algorithm

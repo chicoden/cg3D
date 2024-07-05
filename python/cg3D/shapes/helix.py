@@ -1,5 +1,5 @@
 from ..mesh import Mesh
-from ... import utils
+from .. import utils
 
 def Helix(radius=1, thickness=0.5, turns=3, pitch=1, sides=12, ringrots=12):
     """ Shape generator for creating a helix. """

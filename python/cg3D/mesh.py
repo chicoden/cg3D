@@ -1,8 +1,8 @@
-""" Mesh library. """
+""" Meshes library. """
 
-from ..material import Material
-from .. import transform
-from .. import utils
+from .material import Material
+from . import transform
+from . import utils
 import numpy as np
 
 class Mesh(object):

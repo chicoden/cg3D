@@ -1,5 +1,5 @@
 from ..mesh import Mesh
-from ... import utils
+from .. import utils
 import numpy as np
 
 def Extrude(path=[(0, 0.666), (-0.5, -0.333), (0.5, -0.333)], depth=0.5):

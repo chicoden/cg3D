@@ -1,5 +1,5 @@
 from ..mesh import Mesh
-from ... import utils
+from .. import utils
 
 def Torus(radius=1, thicknes=0.25, sides=12, tube_sides=12):
     """ Shape generator for creating a torus. """

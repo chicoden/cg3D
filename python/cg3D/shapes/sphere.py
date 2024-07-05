@@ -1,5 +1,5 @@
 from ..mesh import Mesh
-from ... import utils
+from .. import utils
 
 def Sphere(radius=1, sides=12, slices=12):
     """ Shape generator for creating a sphere. """

@@ -4,6 +4,7 @@ from .transform import *
 from .material import *
 from .light import *
 from .mesh import *
+from .shapes import *
 from .camera import *
 from .scene import *
 from .render import *

@@ -1,5 +1,5 @@
 from ..mesh import Mesh
-from ... import utils
+from .. import utils
 import numpy as np
 
 def Cylinder(height=1, radius=0.5, sides=12):

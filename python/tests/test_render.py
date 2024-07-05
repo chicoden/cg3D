@@ -22,7 +22,7 @@ def df(x, y, z):
 
 mesh = cg3D.Implicit(f, df)
 #mesh = cg3D.Cone(sides=100)
-mesh.material = cg3D.Material(ambient=(0, 0, 0), diffuse=(0, 255, 0), specular=(255, 255, 255), gloss=20)
+mesh.material = cg3D.Material(ambient=(10, 10, 10), diffuse=(255, 100, 0), specular=(255, 255, 255), gloss=20)
 mesh.transform(cg3D.RotateAboutAxis(1, -1, 1, -30))
 
 scene.add_mesh("mesh1", mesh)
